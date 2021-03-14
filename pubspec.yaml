@@ -1,8 +1,11 @@
 ---
 dependencies:
-  cupertino_icons: ^1.0.0
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_hooks: ^0.16.0
+  flutter_svg: ^0.19.3
+  hooks_riverpod: ^0.13.1
 description: A new Flutter project.
 dev_dependencies:
   flutter_test:
@@ -10,6 +13,11 @@ dev_dependencies:
 environment:
   sdk: '>=2.7.0 <3.0.0'
 flutter:
+  assets:
+    - images/1.png
+    - images/2.png
+    - images/3.png
+    - images/4.png
   uses-material-design: true
 name: moneysplit_flutter
 publish_to: none
